@@ -1,6 +1,6 @@
 package practice.javastudy.pattern.factorypattern;
 
-public class mainClass {
+public class SingletonMainClass {
     public static void main(String[] args) {
         Coffee latte = CoffeeFactory.getCoffee("Latte", 5000);
         Coffee americano = CoffeeFactory.getCoffee("Americano", 4000);
