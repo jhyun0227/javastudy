@@ -21,5 +21,4 @@ public class Product<T, M> {
         this.model = model;
     }
 
-    private String test;
 }
